@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <title>Kitme</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script defer="defer" src="./js/runtime.js"></script>
+    <script defer="defer" src="./js/vendors.js"></script>
+    <script defer="defer" src="./js/main.js"></script>
+    <link href="./css/main.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__wrapper container d-flex h-between v-center">
+        <nav class="header__nav d-flex v-center"><a class="header__logo link-hover" href="#"><img src="assets/logo.svg" alt="logo"></a>
+          <ul class="header__nav-items d-flex v-center">
+            <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">Почему мы?</a></li>
+            <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">База знаний</a></li>
+            <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">Поддержка</a></li>
+            <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">Цены</a></li>
+          </ul>
+        </nav>
+        <div class="header__actions d-flex v-center"><a class="header__login link-hover no-underline" href="#">Войти</a><a class="header__create-site no-underline" href="#">Создать сайт</a>
+          <div class="header__menu"><span></span><span> </span><span></span></div>
+        </div>
+      </div>
+      <ul class="header__nav-burger">
+        <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">Почему мы?</a></li>
+        <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">База знаний</a></li>
+        <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">Поддержка</a></li>
+        <li class="header__nav-item link-hover d-flex"><a class="header__nav-link no-underline" href="#">Цены</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="promo">
+        <div class="promo__wrapper container text-center d-flex dir-column v-center">
+          <h1 class="promo__title">Создайте сайт для&nbsp;<br>своего сервера без кода.</h1>
+          <p class="promo__desctiption text-center">Сайт за несколько минут, даже если вы никогда не делали этого раньше.<br>Принимайте платежи, публикуйте новости, добавляйте игровые кейсы и многое другое.</p>
+          <article class="site">
+            <div class="site__wrapper">
+              <div class="site__header">
+                <div class="site__header-top">
+                  <div class="site__header-top-links"><span class="site__header-top-link">Новости</span><span class="site__header-top-link">О проекте</span><span class="site__header-top-link">Форум</span></div>
+                  <div class="site__header-top-actions"><span class="site__header-top-login">Войти</span><span class="site__header-top-registry">Регистрация</span></div>
+                </div>
+                <div class="site__header-bottom"><img class="site__header-bottom-logo" src="assets/logo.svg" alt="logo">
+                  <div class="site__header-bottom-links"><span class="site__header-bottom-link">Главная</span><span class="site__header-bottom-link">Как начать играть</span><span class="site__header-bottom-link">Донат</span></div>
+                </div>
+              </div>
+              <div class="site__container">
+                <div class="site__hero text-left"><img class="site__hero-img" src="assets/hero-img.jpg" alt="hero">
+                  <div class="site__hero-text">
+                    <h3 class="site__hero-title">Новый легендарный проект</h3>
+                    <p class="site__hero-description">Вы сможете тщательно проработать собственного персонажа и отправиться в далёкий путь, где вам никто не помешает. Развлекайтесь, создавайте бизнесы, работайте, поднимайтесь по карьерной лестнице, — возможностей великое множество.</p><span class="site__hero-news">Новости сайта</span>
+                  </div>
+                </div>
+                <div class="site__steps-wrapper">
+                  <div class="site__steps text-left">
+                    <div class="site__step">
+                      <h4 class="site__step-title">Шаг 1. Установка</h4>
+                      <p class="site__step-description">Скачайте GTA Launcher. С его помощью вам не нужно ни о чём заботиться.</p>
+                      <div class="site__step-button"><img class="site__download" src="assets/step-download-icon.svg" alt="download"><span class="site__button-text">Скачать</span></div>
+                    </div><img class="site__img" src="assets/step-img.jpg" alt="step-img"><img class="site__img" src="assets/step-img.jpg" alt="step-img">
+                    <div class="site__step">
+                      <h4 class="site__step-title">Шаг 2. ЗАПУСК</h4>
+                      <p class="site__step-description">Запустите Launcher. Он сам поставит нужные библиотеки, игру, лаунчер и модпак. Также он имеет дружелюбный интерфейс и дополнительный функционал.</p>
+                    </div>
+                    <div class="site__step">
+                      <h4 class="site__step-title">Шаг 3.СЕРВЕР</h4>
+                      <p class="site__step-description">Введите ник в специальное поле и кликните по кнопке "Играть" возле одного из серверов.</p>
+                      <div class="site__step-button"><span class="site__button-text">Выбрать сервер</span></div>
+                    </div><img class="site__img" src="assets/step-img.jpg" alt="step-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="site__sidebar text-left">
+              <div class="site__sidebar-header"><span class="site__sidebar-header-title">РЕДАКТОР САЙТА</span><img class="site__sidebar-header-close" src="assets/sidebar-close.svg" alt="close"></div>
+              <div class="site__sidebar-title">Настройка сайта</div>
+              <div class="site__sidebar-switch">
+                <div class="site__sidebar-switch-item">ТЕМА</div>
+                <div class="site__sidebar-switch-item">ОБЩЕЕ</div>
+                <div class="site__sidebar-switch-item active">СТРАНИЦА</div>
+              </div>
+              <div class="site__sidebar-settings">
+                <div class="site__sidebar-toggle default-margin"><span class="site__sidebar-toggle-text">Секция после навигации</span><img class="site__sidebar-toggle-icon" src="assets/visible-icon.svg" alt="visible-icon"></div>
+                <div class="site__sidebar-toggle"><span class="site__sidebar-toggle-text">Как начать играть</span><img class="site__sidebar-toggle-icon" src="assets/visible-icon.svg" alt="visible-icon"></div>
+                <div class="site__sidebar-settings-section"><span class="site__sidebar-settings-section-title">Загаловок</span><span class="site__sidebar-settings-section-input">Как начать играть</span></div>
+                <div class="site__sidebar-settings-section"><span class="site__sidebar-settings-section-title">Пошаговая инструкция</span>
+                  <div class="site__sidebar-settings-section-input"><span class="site__sidebar-settings-input-text">1. Вариант 1</span><img class="site__sidebar-settings-input-icon" src="assets/sidebar-arrow.svg" alt="arrow"></div>
+                </div>
+                <div class="site__sidebar-settings-section"><span class="site__sidebar-settings-section-title">Стиль кнопки</span>
+                  <div class="site__sidebar-settings-section-input"><span class="site__sidebar-settings-input-text">С заливкой</span><img class="site__sidebar-settings-input-icon" src="assets/sidebar-arrow.svg" alt="arrow"></div>
+                </div>
+                <div class="site__sidebar-settings-checkbox"><img class="site__sidebar-settings-checkbox-icon" src="assets/checkbox-checked.svg" alt="checkbox"><span class="site__sidebar-settings-checkbox-text">Отразить компановку</span></div>
+                <div class="site__sidebar-settings-checkbox"><img class="site__sidebar-settings-checkbox-icon" src="assets/checkbox-unchecked.svg" alt="checkbox"><span class="site__sidebar-settings-checkbox-text">Отображать изображение</span></div>
+              </div>
+              <div class="site__sidebar-toggle default-margin"><span class="site__sidebar-toggle-text">О проекте</span><img class="site__sidebar-toggle-icon" src="assets/invisible-icon.svg" alt="invisible-icon"></div>
+              <div class="site__sidebar-toggle"><span class="site__sidebar-toggle-text">Новости</span><img class="site__sidebar-toggle-icon" src="assets/invisible-icon.svg" alt="invisible-icon"></div>
+              <div class="site__sidebar-buttons text-uppercase"><span class="site__sidebar-button">Сбросить</span><span class="site__sidebar-button site__sidebar-button-blue">Сохранить</span></div>
+            </div>
+          </article>
+          <div class="promo__image-container">
+            <picture class="promo__image">
+              <source srcset="assets/promo2.webp" type="image/webp"><img src="assets/promo2.jpg" alt="promo">
+            </picture>
+          </div>
+        </div>
+        <picture class="promo__image-sm">
+          <source srcset="assets/promo2.webp" type="image/webp"><img src="assets/promo2.jpg" alt="promo">
+        </picture>
+      </section>
+      <section class="advantages">
+        <div class="advantages__wrapper container d-flex v-center dir-column">
+          <h2 class="advantages__title">Без кода, полный контроль.</h2>
+          <p class="advantages__description">Создавать сайт должно быть просто и приятно — это главный принцип Kitme.</p>
+          <div class="advantages__cards">
+            <article class="advantage-card collections-cards">
+              <div class="advantage-card__wrapper">
+                <h3 class="advantage-card__title">Списки коллекций</h3>
+                <p class="advantage-card__description">Страницы оптимизированы для быстрой работы.</p>
+                <div class="advantage-card__body">
+                  <div class="collections-cards__cards">
+                    <div class="collections-cards__cards-row-1 d-flex">
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Новости</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="green-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Сервера</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Рулетка</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="grey-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Форум</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Платежи</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">О проекте</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">FAQ</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Как начать игру</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Профиль</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Соц. сети</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">FAQ</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Новости</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="green-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Сервера</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Рулетка</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="grey-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Форум</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Платежи</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">О проекте</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">FAQ</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Как начать игру</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Профиль</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Соц. сети</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">FAQ</span>
+                      </article>
+                    </div>
+                    <div class="collections-cards__cards-row-2 d-flex">
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Как начать игру</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Профиль</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Соц. сети</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">FAQ</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">О проекте</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Платежи</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="grey-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Форум</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="green-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Сервера</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Рулетка</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="grey-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Форум</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Платежи</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Как начать игру</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Профиль</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Соц. сети</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="brown-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">FAQ</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="ocean-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">О проекте</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Платежи</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="grey-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Форум</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="green-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Сервера</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="red-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Рулетка</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="grey-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Форум</span>
+                      </article>
+                      <article class="collection d-flex dir-column v-center">
+                        <div class="collection__image"><svg class="blue-fill" width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="border" x="1.07143" y="0.5" width="41.8571" height="30.4286" rx="5.5" fill="white" stroke="#B39148" stroke-dasharray="2 2"></rect>
+                            <rect x="6.28571" y="5.71423" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="6.28571" y="17.1428" width="8.57143" height="8.57143" rx="3" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="6.42859" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="17.8572" width="20" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="23.5714" width="12.1429" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="9.28577" width="11.4286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                            <rect x="17.7143" y="20.7142" width="7.14286" height="1.42857" rx="0.714286" fill="#B39148" fill-opacity="1"></rect>
+                          </svg></div><span class="collection__text">Платежи</span>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="advantage-card click-card">
+              <div class="advantage-card__wrapper">
+                <h3 class="advantage-card__title">Редактор, понятный с первого клика</h3>
+                <p class="advantage-card__description"></p>
+                <div class="advantage-card__body">
+                  <p class="click-card__description">Не нужно учиться создавать сайты — мы сделали конструктор, не требующий специальных навыков.<br>Всё работает именно так, как вы этого ожидаете.</p>
+                  <div class="click-card__images d-flex h-between">
+                    <picture class="click-card__img">
+                      <source srcset="assets/first-click-3.jpg" media="(max-width: 900px)"><img class="click-card__img-md" src="assets/first-click-1.jpg" alt="first-click-1">
+                    </picture><img class="click-card__img" src="assets/first-click-2.jpg" alt="first-click-2">
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="advantage-card adaptability-card">
+              <div class="advantage-card__wrapper">
+                <h3 class="advantage-card__title">Адаптивность</h3>
+                <p class="advantage-card__description">Мы предусмотрели адаптивную верстку — при создании сайта версия для мобильных устройств создается автоматически.</p>
+                <div class="advantage-card__body"><img class="adaptability-card__devices" src="assets/adaptability-1.svg" alt="adaptability">
+                  <div class="adaptability-card__image-container"><img class="adaptability-card__refill" src="assets/adaptability-3.jpg" alt="adaptability"><img class="adaptability-card__refill-sm" src="assets/adaptability-4.jpg" alt="adaptability"></div>
+                </div>
+              </div>
+            </article>
+            <article class="advantage-card optimization-card">
+              <div class="advantage-card__wrapper">
+                <h3 class="advantage-card__title">Оптимизация</h3>
+                <p class="advantage-card__description">Страницы оптимизированы для быстрой работы.</p>
+                <div class="advantage-card__body">
+                  <div class="optimization-card__images d-flex h-between v-center">
+                    <div class="optimization-card__image"><svg class="progress" data-progress="95" xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                        <circle class="progress__background" cx="55" cy="55" r="52.5" fill="#282828" stroke="#282828" stroke-width="5"></circle><text class="progress__text" x="54" y="64" dy="0" fill="white" font-family="GT Walsheim Pro" font-size="28" font-weight="bold" letter-spacing="-0.5px" text-anchor="middle">
+                          <tspan class="progress__text-number">0</tspan>
+                        </text>
+                        <circle class="progress__meter" cx="55" cy="55" r="46" stroke="white" stroke-width="8" stroke-linecap="round"></circle>
+                      </svg></div>
+                    <div class="optimization-card__image main"><svg class="progress" data-progress="100" xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                        <circle class="progress__background" cx="55" cy="55" r="52.5" fill="#282828" stroke="#282828" stroke-width="5"></circle><text class="progress__text" x="54" y="64" dy="0" fill="white" font-family="GT Walsheim Pro" font-size="28" font-weight="bold" letter-spacing="-0.5px" text-anchor="middle">
+                          <tspan class="progress__text-number">0</tspan>
+                        </text>
+                        <circle class="progress__meter" cx="55" cy="55" r="46" stroke="white" stroke-width="8" stroke-linecap="round"></circle>
+                      </svg></div>
+                    <div class="optimization-card__image"><svg class="progress" data-progress="98" xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                        <circle class="progress__background" cx="55" cy="55" r="52.5" fill="#282828" stroke="#282828" stroke-width="5"></circle><text class="progress__text" x="54" y="64" dy="0" fill="white" font-family="GT Walsheim Pro" font-size="28" font-weight="bold" letter-spacing="-0.5px" text-anchor="middle">
+                          <tspan class="progress__text-number">0</tspan>
+                        </text>
+                        <circle class="progress__meter" cx="55" cy="55" r="46" stroke="white" stroke-width="8" stroke-linecap="round"></circle>
+                      </svg></div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="advantage-card domain-card">
+              <div class="advantage-card__wrapper">
+                <h3 class="advantage-card__title">Собственный домен</h3>
+                <p class="advantage-card__description">Закрепите за своим сайтом узнаваемое доменное имя.</p>
+                <div class="advantage-card__body">
+                  <div class="domain-card__addres d-flex v-center"><img class="domain-card__lock-icon" src="assets/lock.svg" alt="lock">
+                    <div class="domain-https"><span class="domain-card__https-start">https://</span><span class="domain-card__https-end">yourdomain.com/</span></div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="advantage-card palettes-card">
+              <div class="advantage-card__wrapper">
+                <h3 class="advantage-card__title">Палитры</h3>
+                <p class="advantage-card__description">Свободно экспериментируйте с палитрами или применяйте фирменные цвета вашего проекта.</p>
+                <div class="advantage-card__body"><img class="palettes-card__img" src="assets/palettes.jpg" alt="palettes"></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="plans d-flex dir-column v-center">
+        <div class="plans__wrapper text-center"><span class="plans__gift">7 дней в подарок</span>
+          <h2 class="plans__title">Готовы начать?</h2>
+          <p class="plans__description">Выберите план, соответствующий вашим потребностям.</p>
+          <div class="plans__cards d-flex h-between">
+            <div class="swiper" plans-slider="true">
+              <div class="plans__cards-wrapper swiper-wrapper" pagination="true">
+                <div class="plans__cards-item swiper-slide">
+                  <article class="plan-card text-left">
+                    <h4 class="plan-card__title">Стартовый</h4>
+                    <div class="plan-card__cost d-flex v-baseline"><span class="plan-card__rubles">2500₽</span><span class="plan-card__per-month">/ мес.</span></div><a class="plan-card__try-free text-center d-block no-underline" href="#">Попробуй бесплатно</a>
+                    <div class="plan-card__services d-flex dir-column">
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Сертификат для https://</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Прикрепление 1-го домена</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Приём онлайн-платежей</span></div>
+                    </div>
+                  </article>
+                </div>
+                <div class="plans__cards-item swiper-slide">
+                  <article class="plan-card dark text-left">
+                    <h4 class="plan-card__title">Базовый</h4>
+                    <div class="plan-card__cost d-flex v-baseline"><span class="plan-card__rubles">3750₽</span><span class="plan-card__per-month">/ мес.</span></div><a class="plan-card__try-free text-center d-block no-underline" href="#">Попробуй бесплатно</a>
+                    <div class="plan-card__services d-flex dir-column">
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Сертификат для https://</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Прикрепление 3-х доменов</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Приём онлайн-платежей</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">500 новостей</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Скрытие лейбла Kitme</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Форум</span></div>
+                    </div>
+                  </article>
+                </div>
+                <div class="plans__cards-item swiper-slide">
+                  <article class="plan-card text-left">
+                    <h4 class="plan-card__title">Про</h4>
+                    <div class="plan-card__cost d-flex v-baseline"><span class="plan-card__rubles">5000₽</span><span class="plan-card__per-month">/ мес.</span></div><a class="plan-card__try-free text-center d-block no-underline" href="#">Попробуй бесплатно</a>
+                    <div class="plan-card__services d-flex dir-column">
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Сертификат для https://</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Неограниченное прикрепление доменов</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Приём онлайн-платежей</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Неограниченное кол-во новостей</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Скрытие лейбла Kitme</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Форум</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Логи изменения баланса</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Вставка собственного кода</span></div>
+                      <div class="plan-card__service d-flex"><img class="plan-card__icon" src="assets/plan-icon.svg" alt="plan"><span class="plan-card__service-text">Игровая рулетка с кейсами</span></div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="faq__wrapper d-flex v-center dir-column">
+          <h2 class="faq__title">FAQ</h2>
+          <p class="faq__description">Ответили на самые частые вопросы.</p>
+          <div class="faq__questions">
+            <div class="faq__accordion" data-active="1">
+              <div class="faq__header d-flex v-center h-between">
+                <h4 class="faq__question">Смена тарифного плана</h4><img class="faq__arrow" src="assets/arrow.svg" alt="arrow">
+              </div>
+              <p class="faq__answer">Тарифный план на Kitme можно изменить в любое время.<br><br>Смена проходит через меню «Тарифный план» в настройках аккаунта. Остаток дней пересчитается автоматически — по новым условиям.<br><br>Например, у вас осталось 20 оплаченных дней, и вы решили перейти с плана «Стартовый» на «Про». Количество дней уменьшится в два раза и останется 10 дней, потому что «Про» дороже в два раза.</p>
+            </div>
+            <div class="faq__accordion" data-active="0">
+              <div class="faq__header d-flex v-center h-between">
+                <h4 class="faq__question">Отмена подписки</h4><img class="faq__arrow" src="assets/arrow.svg" alt="arrow">
+              </div>
+              <p class="faq__answer">Тарифный план на Kitme можно изменить в любое время. Смена проходит через меню «Тарифный план» в настройках аккаунта. Остаток дней пересчитается автоматически — по новым условиям. Например, у вас осталось 20 оплаченных дней, и вы решили перейти с плана «Стартовый» на «Про». Количество дней уменьшится в два раза и останется 10 дней, потому что «Про» дороже в два раза.</p>
+            </div>
+            <div class="faq__accordion" data-active="0">
+              <div class="faq__header d-flex v-center h-between">
+                <h4 class="faq__question">Для юридических лиц</h4><img class="faq__arrow" src="assets/arrow.svg" alt="arrow">
+              </div>
+              <p class="faq__answer">Тарифный план на Kitme можно изменить в любое время. Смена проходит через меню «Тарифный план» в настройках аккаунта. Остаток дней пересчитается автоматически — по новым условиям. Например, у вас осталось 20 оплаченных дней, и вы решили перейти с плана «Стартовый» на «Про». Количество дней уменьшится в два раза и останется 10 дней, потому что «Про» дороже в два раза.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper container">
+        <div class="footer__top d-flex dir-column v-center">
+          <h2 class="footer__title">Начните бесплатно.</h2>
+          <p class="footer__description text-center">Создайте и опубликуйте свой первый<br>бесплатный сайт с помощью Kitme уже сегодня.</p><a class="footer__free" href="#">Попробовать бесплатно</a>
+          <div class="footer__image-container"><img class="footer__image" src="assets/footer-image.jpg" alt="footer-image"></div>
+        </div>
+      </div>
+      <div class="footer__image-container-sm"><img class="footer__image-sm" src="assets/footer-image2.jpg" alt="footer-image"></div>
+      <div class="footer__bottom d-flex h-between container">
+        <div class="footer__info"><a class="footer__home" href="#"><img class="footer__logo" src="assets/footer-logo.svg" alt="logo"></a>
+          <div class="footer__socials d-flex"><a class="footer__social-link" href="#"><img class="footer__social-vk footer__social-img" src="assets/social-icons/vk.svg" alt="vk"></a><a class="footer__social-link" href="#"><img class="footer__social-youtube footer__social-img" src="assets/social-icons/youtube.svg" alt="youtube"></a></div><span class="footer__copyright">Kitme © 2023</span>
+        </div>
+        <ul class="footer__links">
+          <li class="footer__links-item"><a class="footer__link">Компания</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Блог</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Безопасность</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Связаться с нами</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Конфиденциальность</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Cookie Policy</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Сборы</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Условия</a></li>
+        </ul>
+        <ul class="footer__links">
+          <li class="footer__links-item"><a class="footer__link">Шаблонизатор</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Почему мы?</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">Цены</a></li>
+          <li class="footer__links-item"><a class="footer__link" href="#">База знаний</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+
+</html>

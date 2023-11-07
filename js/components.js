@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_pug_starter=self.webpackChunkwebpack_pug_starter||[]).push([[160],{36:()=>{console.log("components page")}},e=>{e(e.s=36)}]);
